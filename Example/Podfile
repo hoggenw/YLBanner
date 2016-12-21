@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YLBanner_Tests' do
+  pod 'YLBanner', :path => '../'
+  
+  
+end
