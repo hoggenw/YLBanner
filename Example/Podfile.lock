@@ -1,0 +1,16 @@
+PODS:
+  - YLBanner (0.1.0)
+
+DEPENDENCIES:
+  - YLBanner (from `../`)
+
+EXTERNAL SOURCES:
+  YLBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLBanner: feb9b55e68d42743074d3847c61612ea2168d886
+
+PODFILE CHECKSUM: 790b7cfe66525edb3be25d19a04f826741231e73
+
+COCOAPODS: 1.2.0.beta.1
