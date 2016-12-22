@@ -1,5 +1,5 @@
 PODS:
-  - YLBanner (0.1.0)
+  - YLBanner (0.1.2)
 
 DEPENDENCIES:
   - YLBanner (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLBanner: 3701965de729987e2992e490f164edeed377d0c5
+  YLBanner: 952adcc496b8b75cef57e4561a6d998ede764304
 
 PODFILE CHECKSUM: 790b7cfe66525edb3be25d19a04f826741231e73
 

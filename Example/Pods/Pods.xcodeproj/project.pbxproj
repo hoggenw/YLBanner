@@ -10,12 +10,12 @@
 		0174DE068CC2849550ED6B8890668EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		0F1E0CDDCB9FB5A9EB964F5251B81254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		23B3FE0E0908B718D6F7DAF316EE4B8A /* YLBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 286F091BDF7137253A929928E5748D65 /* YLBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B25FD9AB660F7A572A4770A45720DBC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13487686EB5C086380A601EA1670471C /* UIColor+Extension.swift */; };
+		4C77F4240348210FCECC3F8CE995E935 /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77584874F4AD21BF5F33CEE79670D1 /* Timer+Extension.swift */; };
+		582F5163B48AA9061CD6958D0BD040FE /* YLBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A3D0AE724C8CFB9E68F1A591D66AF /* YLBanner.swift */; };
 		5E06D37E809A792D2F18C7D660B0A858 /* Pods-YLBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C373ACA237626F8B706F74D3B8EDEA8C /* Pods-YLBanner_Tests-dummy.m */; };
-		7BCB0B4F81A6EABA534CA7D38D3713D4 /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEEB7E2193E020F684432C6FBAC4796 /* Timer+Extension.swift */; };
-		89674C44B864A835E9E6A80130299032 /* YLBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FCE69B671B72BB7E9BC6D1ECF744C /* YLBanner-dummy.m */; };
-		A62EBB613BE9E4DE30E094CCB32DADCB /* YLBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E35214D802771506302C86D4247B7 /* YLBannerView.swift */; };
+		A8246D7BD800A9B8B181FCDFE4FFFC5F /* YLBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FCE69B671B72BB7E9BC6D1ECF744C /* YLBanner-dummy.m */; };
 		B9783BC275A7FEA5891C317E66527E3F /* Pods-YLBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7937C1358B78087F350AB3C0F754A229 /* Pods-YLBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E90FE71041128D21BB168770809DC3A5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824DF87BF3F09E6AAA9E93857A6DF09F /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,21 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13487686EB5C086380A601EA1670471C /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		25EAA41E15A9C4FEE7E26866D91F9172 /* YLBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLBanner-prefix.pch"; sourceTree = "<group>"; };
 		286F091BDF7137253A929928E5748D65 /* YLBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLBanner-umbrella.h"; sourceTree = "<group>"; };
 		3CBDAE4BF56F44B9C8750E467B55A048 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2FCE69B671B72BB7E9BC6D1ECF744C /* YLBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLBanner-dummy.m"; sourceTree = "<group>"; };
 		513156E07FAD906D9570D25D71A0B19E /* Pods-YLBanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLBanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		555E35214D802771506302C86D4247B7 /* YLBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YLBannerView.swift; sourceTree = "<group>"; };
 		5AA13DEB8B5EF02FAD03C223BBF15C1A /* YLBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YLBanner.modulemap; sourceTree = "<group>"; };
 		62547AA16049F8AD87E74B187CACF666 /* Pods_YLBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLBanner_Tests.framework; path = "Pods-YLBanner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DEEB7E2193E020F684432C6FBAC4796 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
 		7937C1358B78087F350AB3C0F754A229 /* Pods-YLBanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLBanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		824DF87BF3F09E6AAA9E93857A6DF09F /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		863A3D0AE724C8CFB9E68F1A591D66AF /* YLBanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YLBanner.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94A1734F5BC4AEC851C9F577FD4C6B8E /* Pods-YLBanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLBanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		95043F7136A0C49E35E93B4A496E3CD9 /* Pods-YLBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9721F0FD1E5789CCFD2375A6C6D48F5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A77584874F4AD21BF5F33CEE79670D1 /* Timer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
 		A6B9810EE989E4C5F2871C16557EC80E /* YLBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLBanner.xcconfig; sourceTree = "<group>"; };
 		C0CC7CC80BA803CEF3E1C9A80E35A46A /* YLBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLBanner.framework; path = YLBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C373ACA237626F8B706F74D3B8EDEA8C /* Pods-YLBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLBanner_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -80,17 +80,6 @@
 				84C4203479A0603996CA86BD7656CAFE /* Pods-YLBanner_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		59034968F396420E6CC0C238FFEF034F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6DEEB7E2193E020F684432C6FBAC4796 /* Timer+Extension.swift */,
-				13487686EB5C086380A601EA1670471C /* UIColor+Extension.swift */,
-				555E35214D802771506302C86D4247B7 /* YLBannerView.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -157,6 +146,17 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		B315B7E5D411E5EF6FD4A21A6233D108 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A77584874F4AD21BF5F33CEE79670D1 /* Timer+Extension.swift */,
+				824DF87BF3F09E6AAA9E93857A6DF09F /* UIColor+Extension.swift */,
+				863A3D0AE724C8CFB9E68F1A591D66AF /* YLBanner.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +168,7 @@
 		DD2498CDE1C4E407EABF3CD983AAFD5A /* YLBanner */ = {
 			isa = PBXGroup;
 			children = (
-				59034968F396420E6CC0C238FFEF034F /* Classes */,
+				B315B7E5D411E5EF6FD4A21A6233D108 /* Classes */,
 			);
 			name = YLBanner;
 			path = YLBanner;
@@ -232,7 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6D836F88CCB46E1EB66A61C73B9D2C /* Build configuration list for PBXNativeTarget "YLBanner" */;
 			buildPhases = (
-				D1D39F34754618310171960B79527650 /* Sources */,
+				B047E44AE60DC79CAC5ABDC6478AF0A8 /* Sources */,
 				9CAD9B8D29B3743176B40CDA0A07727B /* Frameworks */,
 				56E59BF8661CC23020E8B682C5829A9C /* Headers */,
 			);
@@ -273,14 +273,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D1D39F34754618310171960B79527650 /* Sources */ = {
+		B047E44AE60DC79CAC5ABDC6478AF0A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BCB0B4F81A6EABA534CA7D38D3713D4 /* Timer+Extension.swift in Sources */,
-				4B25FD9AB660F7A572A4770A45720DBC /* UIColor+Extension.swift in Sources */,
-				89674C44B864A835E9E6A80130299032 /* YLBanner-dummy.m in Sources */,
-				A62EBB613BE9E4DE30E094CCB32DADCB /* YLBannerView.swift in Sources */,
+				4C77F4240348210FCECC3F8CE995E935 /* Timer+Extension.swift in Sources */,
+				E90FE71041128D21BB168770809DC3A5 /* UIColor+Extension.swift in Sources */,
+				A8246D7BD800A9B8B181FCDFE4FFFC5F /* YLBanner-dummy.m in Sources */,
+				582F5163B48AA9061CD6958D0BD040FE /* YLBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
