@@ -22,7 +22,7 @@ pod "YLBanner"
 ## 调用方法
 ```
 
-       let bannerScroller = PSBannerView(frame: CGRect(x: 0, y: 0, width: MAIN_WIDTH, height:BannerHeight), 3)
+       let bannerScroller = YLBanner(frame: CGRect(x: 0, y: 0, width: MAIN_WIDTH, height:BannerHeight), 3)
         //你的数据源    
         var array  = [UIImageView]()
         

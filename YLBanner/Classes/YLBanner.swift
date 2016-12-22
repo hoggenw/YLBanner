@@ -8,17 +8,17 @@
 
 import UIKit
 
-class YLBanner: UIView {
+public class YLBanner: UIView {
     
     let MAIN_WIDTH = UIScreen.main.bounds.size.width
-    var scrollView: UIScrollView?
-    var currentPageIndex: Int?
-    var animationTimer: Timer?
+    public var scrollView: UIScrollView?
+    public var currentPageIndex: Int?
+    public var animationTimer: Timer?
     fileprivate var pageControl : UIPageControl?
     
     //block
-    var contentViewAtIndex : ((_ pageIndex: Int)->UIImageView)?
-    var tapActionBlock: ((_ pageIndex: Int)-> Void)?
+    public var contentViewAtIndex : ((_ pageIndex: Int)->UIImageView)?
+    public var tapActionBlock: ((_ pageIndex: Int)-> Void)?
     //private
     private var contentViews : [UIImageView] = []
     fileprivate var animationInterval : TimeInterval?
@@ -34,7 +34,7 @@ class YLBanner: UIView {
         }
     }
     
-    init(frame: CGRect ,_ duration: TimeInterval) {
+    public  init(frame: CGRect ,_ duration: TimeInterval) {
         super.init(frame: frame)
         if duration > 0 {
             animationTimer = Timer.scheduledTimer(timeInterval: duration, target: self, selector: #selector(animationTimerDidFire(timer:)), userInfo: nil, repeats: true)
@@ -65,14 +65,14 @@ class YLBanner: UIView {
     }
     //MARK:设置总页数后，启动动画
     
-    func setTotalPagesCount(totalPageCout: (()->(Int))) {
+    public  func setTotalPagesCount(totalPageCout: (()->(Int))) {
         self.totalPages = totalPageCout()
         print("totalPages = \(self.totalPages)")
         
         self.pageControl?.numberOfPages = self.totalPages!
         pageControl?.backgroundColor = UIColor.clear
         pageControl?.isUserInteractionEnabled = true
-
+        
         self.currentPageIndex = 0
         if self.totalPages == 1 {
             scrollView?.contentSize = CGSize(width: MAIN_WIDTH, height: self.bounds.size.height)
@@ -98,7 +98,7 @@ class YLBanner: UIView {
         
         for index in 0..<self.contentViews.count {
             var contentView : UIImageView?
-
+            
             contentView = self.contentViews[index]
             contentView?.contentMode = .redraw
             contentView?.frame = CGRect(x: 0, y: 0, width: MAIN_WIDTH, height: self.bounds.size.height)
@@ -169,20 +169,20 @@ class YLBanner: UIView {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
 
 extension YLBanner: UIScrollViewDelegate {
     
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.animationTimer?.pauseTimer()
     }
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         self.animationTimer?.resumeTimerAfterInterval(self.animationInterval!)
     }
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.x >= (MAIN_WIDTH * CGFloat(2)) {
             self.currentPageIndex = validateNextPageIndexWithPageIndex(index:  self.currentPageIndex!+1)
             configureContentViews()
@@ -193,7 +193,7 @@ extension YLBanner: UIScrollViewDelegate {
         
         self.pageControl?.currentPage = self.currentPageIndex!
     }
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         scrollView.setContentOffset(CGPoint(x: MAIN_WIDTH, y: 0), animated: true)
     }
     
