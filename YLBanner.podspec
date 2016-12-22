@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLBanner'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '简易功能的轮播视图'
   s.description      = <<-DESC
 简易功能的轮播视图，使用block传入数据和传出操作 
